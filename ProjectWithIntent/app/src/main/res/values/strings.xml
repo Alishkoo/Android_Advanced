@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">ProjectWithIntent</string>
+    <string name="home_fragment_title">Home</string>
+    <string name="task1_fragment_title">Task 1</string>
+    <string name="task2_fragment_title">Task 2</string>
+    <string name="task3_fragment_title">Task 3</string>
+    <string name="task4_fragment_title">Task 4</string>
+    <string name="button_task1">Go to Task 1</string>
+    <string name="button_task2">Go to Task 2</string>
+    <string name="button_task3">Go to Task 3</string>
+    <string name="button_task4">Go to Task 4</string>
+</resources>

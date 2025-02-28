@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    android:background="?android:attr/windowBackground">
+
+    <Button
+        android:id="@+id/button_task1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:padding="16dp"
+        android:text="Instagram Story"
+        android:background="@drawable/rounded_button"
+        android:textColor="@android:color/white"
+        android:elevation="4dp" />
+
+    <Button
+        android:id="@+id/button_task2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:padding="16dp"
+        android:text="Music in Background"
+        android:background="@drawable/rounded_button"
+        android:textColor="@android:color/white"
+        android:elevation="4dp" />
+
+    <Button
+        android:id="@+id/button_task3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:padding="16dp"
+        android:text="Broadcast Receiver"
+        android:background="@drawable/rounded_button"
+        android:textColor="@android:color/white"
+        android:elevation="4dp" />
+
+    <Button
+        android:id="@+id/button_task4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:text="Take data from calendar"
+        android:background="@drawable/rounded_button"
+        android:textColor="@android:color/white"
+        android:elevation="4dp" />
+
+</LinearLayout>
