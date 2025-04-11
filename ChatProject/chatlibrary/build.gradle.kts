@@ -1,7 +1,9 @@
 plugins {
+
     id("com.android.library")
     id("org.jetbrains.kotlin.android")
     id("maven-publish")
+
 }
 
 android {
@@ -33,6 +35,8 @@ android {
     }
 
 
+
+
 }
 
 dependencies {
@@ -44,6 +48,7 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
+
 }
 
 afterEvaluate {
