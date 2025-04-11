@@ -62,7 +62,7 @@ class ChatActivity : AppCompatActivity() {
                 Log.d("WebSocket", "Received: $text")
                 runOnUiThread {
                     val displayMessage = if (text == "203 = 0xcb") {
-                        "⚠️ Получено системное сообщение!"
+                        " Получено системное сообщение!"
                     } else {
                         text
                     }
@@ -75,9 +75,9 @@ class ChatActivity : AppCompatActivity() {
                 Log.d("WebSocket", "Binary received: $hexString")
                 runOnUiThread {
                     val displayMessage = if (hexString == "cb") {
-                        "⚠️ Получено бинарное сообщение 0xcb"
+                        " Получено бинарное сообщение 0xcb"
                     } else {
-                        "📦 Получен бинарный пакет: $hexString"
+                        " Получен бинарный пакет: $hexString"
                     }
                     adapter.addMessage(ChatMessage(displayMessage, isSentByUser = false))
                 }

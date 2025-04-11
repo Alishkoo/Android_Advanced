@@ -36,14 +36,14 @@ fun ChatScreen(modifier: Modifier = Modifier) {
             .padding(16.dp),
         verticalArrangement = Arrangement.Center
     ) {
-        Text(text = "Добро пожаловать в чат!", style = MaterialTheme.typography.titleLarge)
+        Text(text = "Добро пожаловать в этот удивительный мир Библиотек", style = MaterialTheme.typography.titleLarge)
 
         Spacer(modifier = Modifier.height(24.dp))
 
         Button(onClick = {
             ChatLauncher.start(context)
         }) {
-            Text(text = "Открыть чат")
+            Text(text = "Открыть мой любимый чат")
         }
     }
 }
